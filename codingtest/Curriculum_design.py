@@ -1,4 +1,5 @@
 #Queue 사용
+
 import sys
 sys.stdin = open("in2.txt", "r")
 arr = input()
