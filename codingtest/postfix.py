@@ -2,7 +2,6 @@ import sys
 sys.stdin = open("input.txt", "r")
 a = input()
 stack = []
-
 res =''
 for x in a:
     if x.isdecimal():
