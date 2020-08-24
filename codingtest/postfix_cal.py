@@ -18,5 +18,6 @@ for i in a:
         elif i=="/":
             res = b / a
         stack.append(res)
+        
 for i in stack:
     print(i)
