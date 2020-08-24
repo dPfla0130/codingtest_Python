@@ -1,5 +1,5 @@
 import sys
-#sys.stdin = open("in2.txt", "r")
+sys.stdin = open("in2.txt", "r")
 a = input()
 
 stack = []
