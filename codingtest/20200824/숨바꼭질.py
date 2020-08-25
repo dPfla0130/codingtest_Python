@@ -1,6 +1,5 @@
 import sys
 from collections import deque
-
 sys.stdin=open("in.txt", "r")
 q = deque()
 def BFS(cur):
