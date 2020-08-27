@@ -2,7 +2,7 @@ import sys
 from collections import deque
 
 sys.stdin=open("in.txt", "r")
-
+#위쪽, 왼쪽부터 탐색
 dx = [-1, 0, 0, 1]
 dy = [0, -1, 1, 0]
 
