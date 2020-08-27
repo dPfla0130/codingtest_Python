@@ -1,6 +1,5 @@
 num = int(input())
 result = [0, 0, 1, 1, 2, 3, 2, 3, 3, 2, 3]
-
 i = 11
 
 while i<=num:
