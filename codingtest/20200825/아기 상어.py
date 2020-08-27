@@ -25,9 +25,7 @@ def BFS(sx, sy, ss):
             x, y, s = q.popleft()
 
             if 0< board[x][y] and board[x][y]<s:
-                for i in range(n):
-                    print(tboard[i])
-                print()
+
                 e += 1
                 board[x][y]=0
                 for i in range(n):
