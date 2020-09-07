@@ -1,5 +1,4 @@
 def solution(progresses, speeds):
-
     answer = []
     while progresses:
         idx = 0
@@ -13,10 +12,5 @@ def solution(progresses, speeds):
         if idx!=0:
             answer.append(idx)
 
-    print(answer)
     return answer
 
-if __name__=="__main__":
-    progresses = [93, 30, 55]
-    speeds = [1, 30, 5]
-    solution(progresses, speeds)
